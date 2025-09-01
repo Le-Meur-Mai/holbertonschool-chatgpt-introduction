@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import sys
 
 def factorial(n):
@@ -18,6 +19,6 @@ if __name__ == "__main__":
                 print("Le factoriel n'est pas défini pour les nombres négatifs.")
             else:
                 f = factorial(num)
-                print(f"Factoriel de {num} = {f}")
+                print(f)
         except ValueError:
             print("Veuillez entrer un nombre entier valide.")
